@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".MainActivity"
+    tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/textView_restaurant"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:background="#5C8CF8"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:id="@+id/restaurant_back"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/left"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/restaurant_text"
+        android:layout_width="235dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="36dp"
+        android:text="교내 학식/식당"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@+id/restaurant_back"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <Button
+        android:id="@+id/engineering"
+        android:layout_width="308dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/checkbutton_shape"
+
+        android:text="공과대학 1호관  "
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/restaurant_text"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/global"
+        android:layout_width="308dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/checkbutton_shape"
+        android:text="글로벌 하우스  "
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/restaurant_text"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/white"
+        android:layout_width="308dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="496dp"
+        android:background="@drawable/checkbutton_shape"
+        android:text="백학 "
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/restaurant_text"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

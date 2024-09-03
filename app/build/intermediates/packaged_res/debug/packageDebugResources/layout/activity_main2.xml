@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#E9EFFF"
+    tools:context=".database.bus_tip_list">
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/left"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="411dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:gravity="center_vertical"
+        android:text="@string/btn2"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <!--  리스트뷰 순서 표시할 TextView  -->
+
+
+    <ListView
+        android:id="@+id/listview_list"
+        android:layout_width="411dp"
+        android:layout_height="738dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:background="@drawable/circle_button"
+        app:layout_constraintEnd_toEndOf="@+id/listview_list"
+        app:layout_constraintBottom_toBottomOf="@+id/listview_list"
+        android:elevation="10dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

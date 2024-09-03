@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xxhdpi_ic_launcher_background.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xxhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_shape_middle.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/shape_middle.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_utensils_solid2.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/utensils_solid2.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-hdpi_ic_launcher_background.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-hdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-mdpi_ic_launcher_background.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-mdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_globalcafe.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/globalcafe.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_item_post1.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/item_post1.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_shape.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/shape.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_route.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/route.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xxxhdpi_ic_launcher_background.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xxxhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_go_bus.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/go_bus.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_activity_main.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_checkbutton_shape.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/checkbutton_shape.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/xml_backup_rules.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_mainpage_image.png.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/mainpage_image.png"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_blue_shapebar.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/blue_shapebar.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_route_pattern.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/route_pattern.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_shape_bar.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/shape_bar.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_festival_24px.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/festival_24px.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_bus_city.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/bus_city.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_mainmap.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/mainmap.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_map_location_solid.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/map_location_solid.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_rounded_toolbar.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/rounded_toolbar.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_restaurant.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/restaurant.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_engineercafe.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/engineercafe.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_window_body.png.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/window_body.png"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_time.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/time.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_whitecafe.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/whitecafe.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_redmarker.png.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/redmarker.png"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_image_shape.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/image_shape.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_baseline_arrow_back.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/baseline_arrow_back.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_alarm_school.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/alarm_school.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_circle_button.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/circle_button.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_item_post.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/item_post.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_button_shape2.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/button_shape2.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_activity_main2.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/activity_main2.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/xml_data_extraction_rules.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_button_shape.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/button_shape.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_rounded_button.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_bus_main.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/bus_main.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_activity_bus_tip.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/activity_bus_tip.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_festival_list.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/festival_list.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_under_shape.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/under_shape.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_top_shape.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/top_shape.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/mipmap-xhdpi_ic_launcher_background.webp.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/mipmap-xhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/layout_show_festival.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/layout/show_festival.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_bluemarker.png.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/bluemarker.png"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_maingpage_text.png.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/maingpage_text.png"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_rounded_button_res.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/rounded_button_res.xml"
+    },
+    {
+        "merged": "com.cookandroid.jarvis_project.app-debug-40:/drawable_baseline_directions_bus_24.xml.flat",
+        "source": "com.cookandroid.jarvis_project.app-main-42:/drawable/baseline_directions_bus_24.xml"
+    }
+]

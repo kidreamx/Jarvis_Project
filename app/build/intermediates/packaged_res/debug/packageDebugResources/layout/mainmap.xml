@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/textView_busmain"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:background="#5C8CF8"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:id="@+id/busmain_back"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/left"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/busmain_text"
+        android:layout_width="235dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="36dp"
+        android:text=" 버스정류장 및 경로안내 "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@+id/busmain_back"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+    <com.kakao.vectormap.MapView
+        android:id="@+id/map_view"
+        android:layout_width="406dp"
+        android:layout_height="384dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView_busmain"
+        tools:layout_editor_absoluteY="-1dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/monument"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/rounded_button"
+        android:text="설립기념탑"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_view"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/art"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/rounded_button"
+        android:text="미술대학"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_view"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/library"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="중앙도서관"
+        app:layout_constraintStart_toStartOf="@+id/monument"
+        app:layout_constraintTop_toBottomOf="@+id/monument"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/mechanic"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="공대2호관"
+        app:layout_constraintStart_toStartOf="@+id/art"
+        app:layout_constraintTop_toBottomOf="@+id/art"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/law"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="법대/경상대"
+        app:layout_constraintStart_toStartOf="@+id/monument"
+        app:layout_constraintTop_toBottomOf="@+id/library"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/main_north"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="본관북쪽"
+        app:layout_constraintStart_toStartOf="@+id/art"
+        app:layout_constraintTop_toBottomOf="@+id/mechanic"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/student"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="학생회관"
+        app:layout_constraintStart_toStartOf="@+id/art"
+        app:layout_constraintTop_toBottomOf="@+id/main_north"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/social_science"
+        android:layout_width="146dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="사회과학대"
+        app:layout_constraintStart_toStartOf="@+id/monument"
+        app:layout_constraintTop_toBottomOf="@+id/law"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bus_route1"
+        android:layout_width="132dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_button"
+        android:text="경로(본관행)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/social_science"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bus_route2"
+        android:layout_width="132dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/rounded_button"
+        android:text="경로(사범대행)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/social_science"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

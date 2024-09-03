@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#E9EFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF5C8CF8</color>
+    <color name="button_color">#F3C6BB</color>
+    <color name="mainpage_color">#5C8CF8</color>
+    <color name="sky">#FFE9EFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <drawable name="route_pattern_arrow"/>
+    <string name="app_name">Jarvis_Project</string>
+    <string name="btn1">정류장 위치 및 경로 안내</string>
+    <string name="btn2">셔틀버스 TIP 및 경로 TIP </string>
+    <string name="btn3" translatable="false">버스 시간표</string>
+    <string name="btn4">버스 출발 시간 알림 서비스</string>
+    <string name="cancel">취소</string>
+    <string name="complete">완료</string>
+    <string name="education">조선대학교 캠퍼스 안내</string>
+    <string name="gcm_defaultSenderId" translatable="false">789403746651</string>
+    <string name="google_api_key" translatable="false">AIzaSyDDDiX_TdDPMuMf2THs1WvBiKPjOz6RN4A</string>
+    <string name="google_app_id" translatable="false">1:789403746651:android:0a8e04119a2be90e7b9a7e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDDDiX_TdDPMuMf2THs1WvBiKPjOz6RN4A</string>
+    <string name="google_storage_bucket" translatable="false">jarvisproject-6c07c.appspot.com</string>
+    <string name="left">   ◁   </string>
+    <string name="msg_token_fmt" translatable="false">토큰 :%s</string>
+    <string name="project_id" translatable="false">jarvisproject-6c07c</string>
+    <string name="right">   ▷   </string>
+    <string name="topbtn">버스 정보"</string>
+    <string name="write">글 작성</string>
+    <style name="Base.Theme.Jarvis_Project" parent="Theme.AppCompat.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Jarvis_Project" parent="Base.Theme.Jarvis_Project"/>
+</resources>

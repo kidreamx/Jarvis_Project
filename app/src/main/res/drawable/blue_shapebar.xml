@@ -1,0 +1,12 @@
+<!-- res/drawable/top_rounded_shape.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:topLeftRadius="0dp"
+        android:topRightRadius="0dp"
+        android:bottomLeftRadius="0dp"
+        android:bottomRightRadius="0dp"
+        />
+    <solid android:color="#5C8CF8" />
+    <corners android:radius="30dp" />
+
+</shape>

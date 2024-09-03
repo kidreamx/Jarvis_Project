@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/mainpage_image"
+        android:layout_width="wrap_content"
+        android:layout_height="183dp"
+        android:background="@drawable/image_shape"
+        android:scaleType="fitEnd"
+        android:src="@drawable/mainpage_image"
+        android:text="@string/education"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-22dp" />
+
+    <ImageView
+        android:id= "@+id/school_image"
+        android:layout_width="236dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/maingpage_text"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:id ="@+id/school_guide"
+        android:text="조선대학교 캠퍼스 안내"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mainpage_image"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageButton
+        android:id="@+id/bus"
+        android:layout_width="136dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="520dp"
+        android:background="@drawable/button_shape"
+        android:src="@drawable/baseline_directions_bus_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/route"
+        android:layout_width="136dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginBottom="516dp"
+        android:background="@drawable/button_shape"
+        android:src="@drawable/map_location_solid"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/event"
+        android:layout_width="136dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_shape"
+        android:src="@drawable/festival_24px"
+        app:layout_constraintStart_toStartOf="@+id/route"
+        app:layout_constraintTop_toBottomOf="@+id/route"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/event_text"
+        android:layout_width="136dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_shape"
+        android:text="축제 정보"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/event"
+        app:layout_constraintTop_toBottomOf="@+id/event"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/cafeteria_text"
+        android:layout_width="136dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_shape"
+        android:text="교내 학식/ 식당"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/cafeteria"
+        app:layout_constraintTop_toBottomOf="@+id/cafeteria"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/bus_text"
+        android:layout_width="136dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_shape"
+        android:text="버스 정보"
+
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/bus"
+        app:layout_constraintTop_toBottomOf="@+id/bus"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/route_text"
+        android:layout_width="136dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_shape"
+        android:text="건물 위치/ 길찾기"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/route"
+        app:layout_constraintTop_toBottomOf="@+id/route"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/cafeteria"
+        android:layout_width="136dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="60dp"
+
+        android:background="@drawable/button_shape"
+        android:src="@drawable/utensils_solid2"
+        app:layout_constraintStart_toStartOf="@+id/bus"
+        app:layout_constraintTop_toBottomOf="@+id/bus"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/homepage_button"
+        android:layout_width="337dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_shape"
+        android:text="    홈페이지 바로가기"
+        android:textAlignment="textStart"
+
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cafeteria_text"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/diary_school_button"
+        android:layout_width="337dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_shape"
+        android:text="    학사 일정 바로가기"
+        android:textAlignment="textStart"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homepage_button"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView_festival"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:background="#5C8CF8"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:id="@+id/festival_back"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/left"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/festival_text"
+        android:layout_width="235dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="36dp"
+        android:text=" 축제 정보"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@+id/festival_back"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/festival_textview"
+        android:layout_width="295dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="52dp"
+        android:text="예시를 보여드리겠습니다"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_festival"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id = "@+id/festival_imageview"
+        android:layout_width="351dp"
+        android:layout_height="386dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/festival_textview"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

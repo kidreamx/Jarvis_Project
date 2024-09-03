@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9EFFF"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:background="#5C8CF8"
+        android:gravity="center_vertical"
+        android:text="버스 시간표"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/button_m"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_m"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/left"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="350dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/button_shape2"
+            android:text="   본관행" />
+
+        <RadioButton
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_shape2"
+            android:text="   사회과학대행" />
+
+        <RadioButton
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_shape2"
+            android:text="   글로벌하우스행" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="206dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_middle"
+        android:text="셔틀버스"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="206dp"
+        android:layout_height="60dp"
+        android:background="@drawable/shape_middle"
+        android:text="시내버스"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout_main"
+        android:layout_width="411dp"
+        android:layout_height="780dp"
+
+        android:layout_marginTop="100dp"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text="운행구간"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="설립기념탑 ⇒ 미대 ⇒ 중앙도서관 ⇒
+                 IT융합대학/공대 제2공학관 ⇒ 법대·경상대 ⇒
+                 본관 북쪽 ⇒ 학생회관 ⇒ 설립기념탑"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#599EF7"
+                android:gravity="left|center_vertical"
+                android:text="주간 운행 시간표(5~10분 간격 운행)"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text="운행시간"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#A3CBFE "
+                android:gravity="left|center_vertical"
+                android:text=" 대수"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#A3CBFE "
+                android:gravity="left|center_vertical"
+                android:text="  비고"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="07:40~8:20"
+                android:textSize="23dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="  3"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 사회대 경유함"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="08:20 ~9:10"
+                android:textSize="23dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="  5"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 집중배차(수시운행)"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="09:10~17:00"
+                android:textSize="23dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="  3"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=""
+                android:textSize="25dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#599EF7 "
+                android:gravity="left|center_vertical"
+                android:text="야간 운행 시간표"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="설립 기념탐 출발시간 사회대 경유함"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text="운행시간"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text=" 대수"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text="  비고"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="17:15∼18:40"
+                android:textSize="23dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 1"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="  15분간격"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text="운행시간(2번째 챠량)"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 18:40"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 19:35"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 19:50"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 20:30"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 20:50"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 21:10"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 21:25"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 21:40"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 22:10"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 22:40"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=""
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" "
+                android:textSize="25dp" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+    <TextView
+        android:id="@+id/textView_middle"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:background="#5C8CF8"
+        android:gravity="center_vertical"
+        android:text="본관행"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/button_middle"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_middle"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/left"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TableLayout
+        android:id="@+id/tableLayout_social"
+        android:layout_width="412dp"
+        android:layout_height="750dp"
+        android:layout_marginStart="2dp"
+        android:stretchColumns="*"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="3"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text="운행구간"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="설립기념탑 ⇔ 사회과학관"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#599EF7"
+                android:gravity="left|center_vertical"
+                android:text="운행 시간표(약 10분간격 운행)"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text=" 연번"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text="운행시간"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 1"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="08:20 ~ 09:10"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 2"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="09:20 ~ 10:10"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 3"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="10:30 ∼ 11:10"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 4"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="12:30 ∼ 13:10"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 5"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="13:30 ∼ 14:10"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 6"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="14:30 ∼ 15:10"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 7"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="15:30 ∼ 16:10"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView_social"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:background="#5C8CF8"
+        android:gravity="center_vertical"
+        android:text="사회과학대행"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/button_social"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button_social"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/left"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+    <TableLayout
+        android:id="@+id/tableLayout_global"
+        android:layout_width="412dp"
+        android:layout_height="750dp"
+        android:layout_marginStart="2dp"
+        android:stretchColumns="*"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_global">
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text="운행구간"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text="글로벌하우스 ⇔ 항공우주·선박해양공학관 ⇔ 해오름관 ⇔ 설립기념탑"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#599EF7"
+                android:gravity="left|center_vertical"
+                android:text="운행 시간표(약 10분간격 운행)"
+                android:textSize="23dp" />
+
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text=" 연번"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text="운행시간"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#A3CBFE"
+                android:gravity="left|center_vertical"
+                android:text=" 배차간격"
+                android:textSize="20dp" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 1"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 08:20 ~ 09:00"
+                android:textSize="23dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 10분"
+                android:textSize="20dp" />
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 2"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 09:20 ~ 10:00"
+                android:textSize="23dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 20분"
+                android:textSize="20dp" />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 3"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 10:20 ∼ 11:20"
+                android:textSize="23dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 20분"
+                android:textSize="20dp" />
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 4"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 12:40 ∼ 13:40"
+                android:textSize="23dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 10분"
+                android:textSize="20dp" />
+
+
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 5"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 14:00 ∼ 14:40"
+                android:textSize="23dp" />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 20분"
+                android:textSize="20dp" />
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 6"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 15:00 ∼ 15:40"
+                android:textSize="23dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 20분"
+                android:textSize="20dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 7"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 16:20 ∼ 16:40"
+                android:textSize="23dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 20분"
+                android:textSize="20dp" />
+
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 8"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 17:00 ∼ 17:40"
+                android:textSize="23dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 10분"
+                android:textSize="20dp" />
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 9"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="3"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 18:00 ∼ 18:30"
+                android:textSize="23dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="left|center_vertical"
+                android:text=" 10분"
+                android:textSize="20dp" />
+
+
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+    <TextView
+        android:id="@+id/textView_global"
+        android:layout_width="368dp"
+        android:layout_height="100dp"
+        android:background="#5C8CF8"
+        android:gravity="center_vertical"
+        android:text="글로벌하우스행"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/button_global"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button_global"
+        android:layout_width="44dp"
+        android:layout_height="100dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/left"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

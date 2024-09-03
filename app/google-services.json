@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "789403746651",
+    "project_id": "jarvisproject-6c07c",
+    "storage_bucket": "jarvisproject-6c07c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789403746651:android:0a8e04119a2be90e7b9a7e",
+        "android_client_info": {
+          "package_name": "com.cookandroid.jarvis_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDDiX_TdDPMuMf2THs1WvBiKPjOz6RN4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

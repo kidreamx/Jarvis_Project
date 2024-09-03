@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Jarvis_Project</string>
+    <string name="education">조선대학교 캠퍼스 안내</string>
+    <string name="topbtn">버스 정보"</string>
+    <string name="btn1">정류장 위치 및 경로 안내</string>
+    <string name="btn2">셔틀버스 TIP 및 경로 TIP </string>
+    <string name="btn3" translatable="false">버스 시간표</string>
+    <string name="btn4">버스 출발 시간 알림 서비스</string>
+    <string name="right">   ▷   </string>
+    <string name="left">   ◁   </string>
+    <string name="cancel">취소</string>
+    <string name="complete">완료</string>
+    <string name="write">글 작성</string>
+    <string name="msg_token_fmt" translatable="false">토큰 :%s</string>
+</resources>
